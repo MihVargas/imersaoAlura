@@ -1,0 +1,91 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  min-height: 400px;
+  background-color: #000000;
+  background-size: 80vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.notas {
+  width: 27rem;
+  position: center bottom absolute;
+  top: 12rem;
+  position: center bottom;
+  margin: 0.5rem;
+}
+
+.botao{
+  font-family: 'Roboto Mono', monospace;
+  padding: auto;
+  width: auto;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.painel {
+  border-width: medium;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  padding: 8px;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+#primeira {
+  width: 90px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+#segunda {
+  width: 90px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+#terceira {
+  width: 90px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+#quarta {
+  width: 90px;
+  border-radius: 50px;
+  text-align: center;
+}
+.TextoAlto {
+  font-size: 12pt;
+  color: white;
+}

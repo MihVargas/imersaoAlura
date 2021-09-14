@@ -1,0 +1,85 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Imersão Dev Alura - Aula 01</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  </head>
+  <body>
+    <div class="container">
+      <a href="https://alura.com.br/" target="_blank">
+        <img
+          src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+          alt=""
+          class="alura-logo"
+        />
+      </a>
+      <h1 class="page-title">Calculadora de média</h1>
+      <p class="page-subtitle">
+        Descubra qual a sua média de nota de todas as provas!
+      </p>
+      <img
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+        class="page-logo"
+        alt=""
+      />
+      <div class="painel">
+        <div class="notas">
+          <input
+            id="primeira"
+            placeholder="1ª prova"
+            style="font-family: 'Roboto Mono', monospace"
+            type="number"
+            min="0"
+            max="10"
+          />
+
+          <input
+            id="segunda"
+            placeholder="2ª prova"
+            style="font-family: 'Roboto Mono', monospace"
+            type="number"
+            min="0"
+            max="10"
+          />
+
+          <input
+            id="terceira"
+            placeholder="3ª prova"
+            style="font-family: 'Roboto Mono', monospace"
+            type="number"
+            min="0"
+            max="10"
+          />
+
+          <input
+            id="quarta"
+            placeholder="4ª prova"
+            style="font-family: 'Roboto Mono', monospace"
+            type="number"
+            min="0"
+            max="10"
+          />
+
+          <input
+            class="botao"
+            id="buttonCalcular"
+            type="button"
+            value="Calcular"
+            onclick="resultadoFinal()"
+          />
+
+          <input
+            class="botao"
+            id="buttonLimpar"
+            type="button"
+            value="Limpar"
+            onclick="limpar()"
+          />
+
+          <h1 id="resultado" class="TextoAlto"></h1>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="main.js"></script>
+</html>
