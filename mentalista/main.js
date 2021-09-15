@@ -1,14 +1,14 @@
-var numeroSecreto = parseInt(Math.random() * 11);
-
 function Chutar() {
-  var elementoResultado = document.getElementById("resultado");
+  var numeroSecreto = parseInt(Math.random() * 11)
+  var elementoResultado = document.getElementById('resultado')
 
-  var chute = parseInt(document.getElementById("valor").value);
+  var chute = parseInt(document.getElementById('valor').value)
   if (chute == numeroSecreto) {
-    elementoResultado.innerHTML = "Você acerto, parabéns!!!";
+    elementoResultado.innerHTML = 'Você acerto, parabéns!!!'
   } else if (chute > 10 || chute < 0) {
-    elementoResultado.innerHTML = "Você deve digitar um número de 0 a 10";
+    elementoResultado.innerHTML = 'Você deve digitar um número de 0 a 10'
   } else {
-    elementoResultado.innerHTML = "Você errou";
+    elementoResultado.innerHTML =
+      'Você errou, o número secreto é ' + numeroSecreto
   }
 }
