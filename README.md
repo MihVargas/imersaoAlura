@@ -30,6 +30,6 @@ Nesse projeto foi desenvolvido um jogo em que o usuário tenta adivinhar qual o 
 
 ## AluraFlix
 
-Para esse projeto foi desenvolvido um catálogo de cartaz de filmes. O usuário deverá informar a URL do cartaz do filme que sejar. Nesse momento o código irá ler esse link atravez de um for para que gere uma lista de cartazes. Ao final da execução o cartaz será exibido ao lado do último cartaz adicionado.
+Para esse projeto foi desenvolvido um catálogo de cartaz de filmes. O usuário deverá informar a URL do cartaz do filme que desejar. Nesse momento o código irá ler esse link atravez de um for para que gere uma lista de cartazes. Ao final da execução o cartaz será exibido ao lado do último cartaz adicionado.
 
-![20210915_134711](https://user-images.githubusercontent.com/58522921/133475656-8fb5c821-7363-47ab-b4e7-c9808f3af90e.gif)
+![20210917_011308](https://user-images.githubusercontent.com/58522921/133723284-a4dfacf1-9196-4d22-ab41-ab807bc71454.gif)
